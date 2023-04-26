@@ -12,7 +12,7 @@ function App() {
   dispatch(getMovies())
 
   return (
-    <div>
+    <div className='App'> 
         <NavBar/>
       <Routes>
         <Route path='/' element={<Movies />}/>

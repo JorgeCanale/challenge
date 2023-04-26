@@ -9,6 +9,22 @@
     height: 90px;
 }
 
+.characterCard:hover{
+    box-shadow: 0 0 1vh 0.3vw red;
+}
+
+.characterCard:hover > .name{
+    color: red;
+}
+
+.characterCard:hover >.eyes{
+    color: red;
+}
+
+.characterCard:hover > .gender{
+    color: red;
+}
+
 .name{
     padding-left: 10px;
     color: aqua

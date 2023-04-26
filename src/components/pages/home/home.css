@@ -5,6 +5,6 @@
     background-image: url("../../../assets/movies\ background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100dvh;
+    height: 100%;
     width: 100%;
 }

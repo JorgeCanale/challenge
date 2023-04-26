@@ -1,5 +1,5 @@
 .characters{
-    background: url("../../../assets//background.jpg");
+    background: url("../../../assets/movies\ background2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -11,6 +11,6 @@
 }
 
 .loading{
-    color: aqua;
+    color: red;
     margin-top: 250px;
 }

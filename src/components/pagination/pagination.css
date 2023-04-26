@@ -15,7 +15,7 @@
     width: 30px;
     text-align: center;
     border: none;
-    color:white;
+    color:red;
     background: transparent;
     box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
     margin-left: 10px;
@@ -26,17 +26,25 @@
 .previous{
     border: none;
     border-radius: 20px;
-
-    box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
-    background-color: aqua;
+    box-shadow: 0px 0px 1vh 0.3vw rgb(25, 14, 168);
+    background-color: rgb(11, 0, 167);
     height: 18px;
+}
+
+.previous:hover{
+    cursor: pointer;
+    color: white;
 }
 
 .next{
     border: none;
     border-radius: 20px;
-
-    box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
-    background-color: aqua;
+    box-shadow: 0px 0px 1vh 0.3vw rgb(247, 13, 13);
+    background-color:  rgb(253, 43, 43);
     height: 18px;
+}
+
+.next:hover{
+    cursor: pointer;
+    color: white;
 }
