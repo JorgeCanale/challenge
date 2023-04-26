@@ -1,0 +1,41 @@
+.filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.eyesFilter{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    background-color: aqua;
+    height: 18px;
+}
+
+
+
+.genderFilter{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    background-color: aqua;
+    height: 18px;
+}
+
+.clear{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    background-color: aqua;
+    height: 18px;
+}
+
+option{
+    color: white;
+}

@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(70, 69, 69, 0.774);
+    justify-content: center;
+    height: 60px;
+}
+
+.mButton{
+    border:none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(255, 77, 77);
+    box-shadow: 1px 1px 1px 1px rgb(235, 54, 54);
+    height: 20px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.mButton:hover{
+    color: white;
+}
+
+.cButton{
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(94, 224, 94);
+    box-shadow: 1px 1px 1px 1px rgb(11, 185, 55);
+    height: 20px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cButton:hover{
+    color: white;
+}

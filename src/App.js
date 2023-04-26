@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import {getMovies} from "./actions/moviesActions"
+import { CharactersPage } from './components/pages/characters/characters';
+import { Movies } from './components/pages/home/home';
+import { NavBar } from './components/navBar/navBar'; 
 import './App.css';
 
 function App() {
+
+  const dispatch = useDispatch()
+  dispatch(getMovies())
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <NavBar/>
+      <Routes>
+        <Route path='/' element={<Movies />}/>
+        <Route path='/characters' element={<CharactersPage />}/>
+      </Routes>
     </div>
   );
 }

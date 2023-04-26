@@ -1,0 +1,23 @@
+.characterCard{
+    border: transparent rgba(73, 73, 73, 0.349) 2px;    
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(49, 176, 214);
+    margin: 2px 2px 2px 2px; 
+    width: 200px;
+    height: 90px;
+}
+
+.name{
+    padding-left: 10px;
+    color: aqua
+}
+.eyes{
+    padding-left: 10px;
+    color: aqua
+}
+.gender{
+    padding-left: 10px;
+    color: aqua
+}
