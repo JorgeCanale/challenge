@@ -35,6 +35,10 @@
     height: 18px;
 }
 
+.clear:hover{
+    cursor: pointer;
+}
+
 option{
     color: white;
 }
