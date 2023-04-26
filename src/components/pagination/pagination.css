@@ -1,0 +1,42 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+    text-align: center;
+    text-align: center;
+    position:inherit;
+    margin-top: 25px;
+
+}
+
+.page{
+    width: 30px;
+    text-align: center;
+    border: none;
+    color:white;
+    background: transparent;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.previous{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    background-color: aqua;
+    height: 18px;
+}
+
+.next{
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    background-color: aqua;
+    height: 18px;
+}

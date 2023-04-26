@@ -4,7 +4,14 @@
     background-size: contain;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 100px 95px;
-    width: 100%;
-    height: 100%;
+    column-gap: 15px;
+    row-gap: 15px;
 
 }
+
+.container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+

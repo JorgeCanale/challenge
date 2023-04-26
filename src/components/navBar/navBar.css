@@ -1,8 +1,9 @@
 .navbar{
     display: flex;
     flex-direction: row;
-    background-color: rgba(70, 69, 69, 0.774);
+    background-color: black;
     justify-content: center;
+    border-bottom: solid aqua 1px;
     height: 60px;
 }
 
