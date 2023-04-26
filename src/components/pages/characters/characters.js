@@ -18,9 +18,7 @@ export const CharactersPage = ()=>{
     return (
         <div className="characters">
             <Filters />
-            <div>
                 { char !== undefined ? <CharactersCards/> : <h1 className="loading">...Loading</h1>}
-            </div>
         </div>
     )
 }

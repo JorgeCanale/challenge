@@ -6,11 +6,18 @@
     flex-direction: column;
     justify-content: inherit;
     align-items: center;
-    height: 100dvh;
+    height: 100hdv;
     width: 100%;
 }
 
 .loading{
     color: red;
     margin-top: 250px;
+}
+
+@media (max-width:649px){
+    .characters{
+        background-color: black;
+        background-image: none;
+    }
 }

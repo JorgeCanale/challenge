@@ -6,6 +6,7 @@
     grid-template-rows: 100px 95px;
     column-gap: 15px;
     row-gap: 15px;
+    height: 100%;
 
 }
 
@@ -15,3 +16,21 @@
     align-items: center;
 }
 
+@media (max-width:1200px){
+    .cards{
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 15px;
+        row-gap: 15px;
+        height: 100%;
+    
+    }
+}
+@media (max-width:649px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        background-size: 100%;
+        height: 100%;
+    }
+}

@@ -38,3 +38,11 @@
 option{
     color: white;
 }
+
+@media (max-width:600px){
+    .filters{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

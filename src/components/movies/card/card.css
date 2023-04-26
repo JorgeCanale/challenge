@@ -9,7 +9,7 @@
     margin: 2px 2px 2px 2px; 
     justify-content: center;
     align-items: center;
-
+    min-width: 33%;
 
 }
 
@@ -61,5 +61,13 @@
 }
 
 .char:hover{
-    color:red;
+    color:purple;
+}
+
+
+@media (max-width:600px){
+    .card{
+        width: 40%;
+        height: 30%;
+    }
 }
