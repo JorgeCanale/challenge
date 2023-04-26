@@ -12,7 +12,7 @@
 .eyesFilter{
     border: none;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
     background-color: aqua;
     height: 18px;
 }
@@ -22,7 +22,7 @@
 .genderFilter{
     border: none;
     border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
     background-color: aqua;
     height: 18px;
 }
@@ -30,8 +30,7 @@
 .clear{
     border: none;
     border-radius: 20px;
-    color: white;
-    box-shadow: 1px 1px 1px 1px rgb(42, 104, 173);
+    box-shadow: 0px 0px 1vh 0.3vw rgb(42, 104, 173);
     background-color: aqua;
     height: 18px;
 }

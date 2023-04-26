@@ -1,18 +1,18 @@
 .navbar{
     display: flex;
     flex-direction: row;
-    background-color: black;
-    justify-content: center;
+    background-image: linear-gradient(100deg, rgb(11, 0, 167),rgb(16, 0, 238),white, white,red, red);
     border-bottom: solid aqua 1px;
     height: 60px;
+    justify-content: space-around;
 }
 
 .mButton{
     border:none;
     cursor: pointer;
     border-radius: 20px;
-    background-color: rgb(255, 77, 77);
-    box-shadow: 1px 1px 1px 1px rgb(235, 54, 54);
+    background-color: rgb(11, 0, 167);
+    box-shadow: 0px 0px 1vh 0.3vw rgb(25, 14, 168);
     height: 20px;
     width: 70px;
     margin-top: 20px;
@@ -26,8 +26,8 @@
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    background-color: rgb(94, 224, 94);
-    box-shadow: 1px 1px 1px 1px rgb(11, 185, 55);
+    background-color: rgb(253, 43, 43);
+    box-shadow: 0px 0px 1vh 0.3vw rgb(247, 13, 13);
     height: 20px;
     width: 70px;
     margin-top: 20px;

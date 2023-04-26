@@ -1,7 +1,10 @@
 .home{
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: f;
+    background-image: url("../../../assets/movies\ background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100dvh;
     width: 100%;
 }

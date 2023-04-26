@@ -11,7 +11,7 @@ export const  MoviesCards = ()=>{
     return (
              <div className="moviesCards">
                 {movies && movies.map((movie)=>{
-                    return( <MovieCard key={movie.episode_id} name={movie.title} episode={movie.episode_id} director={movie.director} characters={movie.characters}/>)
+                    return( <MovieCard  key={movie.episode_id} name={movie.title} episode={movie.episode_id} director={movie.director} characters={movie.characters}/>)
                 })}
             </div>
     )

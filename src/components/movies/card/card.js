@@ -19,8 +19,8 @@ export const MovieCard =({name, episode, director, characters})=>{
         
     <div className="card">
         <h3 className="tittle">{name}</h3>
-        <div className="episode">Episodio: {episode}</div>
-        <div className="director">Director: {director}</div>
+        <div className="episode">{`Episodio ${episode}`}</div>
+        <div className="director">{`Director: ${director}`}</div>
         <button className="char" onClick={handleClick} >characters</button>
     </div>
     )
